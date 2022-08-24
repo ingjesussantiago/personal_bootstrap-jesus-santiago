@@ -32,17 +32,29 @@
         </nav>
     
     </header>
-    <main class="main">
-        <form action="">
-                <div>
-                    <h1>Bienvenido a mi sitio</h1>
-                    <label>Usuario</label>
-                    <input type="text" name="Usuario" id="Usuario">
+    <main class="container">
+         <div class="row g-5 justify-content-center">
+            <div class="col-lg-4">
+                <hr class="me-5">
+            <h4 class="mb-3">Bienvenido a mi Pagina</h4>
+            <form class="needs-validation" novalidate>
+              <div class="row g-3">
+                <div class="col-sm-6">
+                  <label for="firstName" class="form-label">Nombre</label>
+                  <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                  <div class="invalid-feedback">
+                    Valid first name is required.
+                  </div>
                 </div>
-                <div>
-                    <Label>Contraseña</Label>
-                    <input type="password" name="contraseña" id="contraseña">
+    
+                <div class="col-sm-6">
+                  <label for="lastName" class="form-label">Apellidos</label>
+                  <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                  <div class="invalid-feedback">
+                    Valid last name is required.
+                  </div>
                 </div>
+<<<<<<< HEAD
                 <button><a href="./pages/sitio.html">ir a sitio</a></button>
                 
         </form>  
@@ -57,6 +69,45 @@
                     <li><a class="nav-link active" aria-current="page" href="#"><i class="bi bi-twitter"></i>Twitter</a></li>
                     <li><a class="nav-link active" aria-current="page" href="#"><i class="bi bi-instagram"></i>Instagram</a></li>
                     <li><a class="nav-link active" aria-current="page" href="#"><i class="bi bi-facebook"></i>Facebook</a></li>
+=======
+    
+                <div class="col-lg-12">
+                  <label for="username" class="form-label">Usuario</label>
+                  <div class="input-group has-validation">
+                    <span class="input-group-text">@</span>
+                    <input type="text" class="form-control" id="username" placeholder="Username" required>
+                  <div class="invalid-feedback">
+                      Your username is required.
+                    </div>
+                  </div>
+                </div>
+
+                    <div class="col-lg-12">
+                    <button class="w-100 btn btn-primary btn-lg" type="submit">Entrar a Sitio</button>
+                    </div>
+                   
+                </div>
+                  </div>
+                  
+    
+              <hr class="my-9">
+    
+             
+            </form>
+          </div>
+      </main>
+        <div class="container ">
+            <footer class="py-2 " >
+              <div class="d-flex flex-column flex-sm-row justify-content-between py-2 my-3 align-items-lg-center">
+                <p class="col-lg-7 col-md-8 col-ms-12">&copy; 2022 Company, Inc. All rights reserved. <br><br>
+                  Nuestra misión es apoyar a las empresas, aumentado su desarrollo y productividad, ayudados por herramientas y normas decalidad. </p>
+                <P></P>
+                <ul class="list-unstyled d-flex justify-content-evenly col-lg-5 col-md-4 col-ms-12">
+                  <li><a class="nav-link active" aria-current="page" href="#"><i class="bi bi-whatsapp"></i>Whatsapp</a></li>
+                  <li><a class="nav-link active" aria-current="page" href="#"><i class="bi bi-twitter"></i>Twitter</a></li>
+                  <li><a class="nav-link active" aria-current="page" href="#"><i class="bi bi-instagram"></i>Instagram</a></li>
+                  <li><a class="nav-link active" aria-current="page" href="#"><i class="bi bi-facebook"></i>Facebook</a></li>
+>>>>>>> body
                 </ul>
                 </div>
             </footer>
